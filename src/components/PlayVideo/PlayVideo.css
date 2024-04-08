@@ -1,0 +1,136 @@
+.play-video{
+    flex-basis: 67%;
+}
+
+.play-video iframe{
+    width: 100%;
+    height: 75vh;
+}
+
+.play-video h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.play-video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 12px;
+    flex-wrap: wrap;
+    color: #5a5a5a;
+}
+.play-video-info img{
+    width: 20px;
+    margin-right: 8px;
+}
+
+.play-video-info span{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 13px;
+}
+.play-video hr{
+    border: 0;
+    height:1px;
+    background: #ccc;
+    margin: 8px 0;
+}
+.publisher{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.publisher-info{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.publisher-info p{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.publisher-info span{
+    font-size: 12px;
+    color: #5a5a5a;
+}
+
+.publisher-info img{
+    width: 38px;
+    border-radius: 50%;
+}
+
+.publisher button{
+    background-color: red;
+    color: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    padding: 7px 28px;
+    border-radius: 3.8px;
+}
+
+.video-desc{
+    padding-left:50px ;
+    margin: 13px 0;
+}
+.video-desc p{
+    color: #5a5a5a;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.video-desc h4{
+    color: #5a5a5a;
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+.comment{
+    display: flex;
+    align-items: flex-start;
+    margin:18px 0;
+}
+
+.comment img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+
+.comment h3{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.comment h3 span{
+    font-size: 12px;
+    color: #5a5a5a;
+    font-weight: 500;
+    margin-left: 8px;
+}
+
+.comment-action{
+    display: flex;
+    align-items: center;
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+.comment-action img{
+    width: 20px;
+    border-radius: 0;
+    margin-right: 4px;
+}
+
+.comment-action span{
+    margin-right: 14px;
+    color: #5a5a5a;
+}
